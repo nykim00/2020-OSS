@@ -7,7 +7,7 @@ int main(void) {
 
 	srand(time(0));
 
-	for(i=0;i<3;i++){
+	for(i=0;i<10;i++){
 		num = rand() % 100 + 1;  
 		printf("%d ",num);
 	}
